@@ -9,3 +9,8 @@
 [Realtek USB GBE Ethernet Controller Driver](https://dl.dell.com/FOLDER08550499M/3/Realtek-USB-GBE-Ethernet-Controller-Driver_3K7FF_WIN_1153.6.0418.2022_A27_01.EXE)
 
 
+## Poly HUB Desktop
+
+[HUB Desktop for Windows](https://www.poly.com/content/dam/www/software/PlantronicsHubInstaller.exe)
+
+[HUB Desktop for MAC](https://www.poly.com/content/dam/www/software/PlantronicsHubInstaller.dmg)
