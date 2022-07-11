@@ -14,3 +14,13 @@
 [HUB Desktop for Windows](https://www.poly.com/content/dam/www/software/PlantronicsHubInstaller.exe)
 
 [HUB Desktop for MAC](https://www.poly.com/content/dam/www/software/PlantronicsHubInstaller.dmg)
+
+
+
+## Microsoft technical documentation
+[URL:](https://docs.microsoft.com/en-us/)
+
+[Open Display setting](ms-settings:display?activationSource=SMC-IA-4027860)
+
+
+[Enable Remote Destkop](ms-settings:remotedesktop?activationSource=SMC-IA-4028379)
