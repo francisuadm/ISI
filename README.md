@@ -30,3 +30,9 @@ cut and paste to the run command: ms-settings:remotedesktop?activationSource=SMC
 
 
 [Launch the Windows setting app via ms-setting command: ](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app)
+
+
+## Targus DockingStation Drivers
+
+[Download now](https://intusurg.box.com/s/tjogc845bg89nd0swi9lfmhoriw3ixi6)
+
