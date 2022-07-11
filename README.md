@@ -20,6 +20,11 @@
 ## Microsoft technical documentation
 [URL:](https://docs.microsoft.com/en-us/)
 
+
+ <p>
+                  <a href="ms-settings:display?activationSource=SMC-IA-4027860" target="_blank" role="button" class="ocpExternalLink supLinkButton">Open Display settings</a>
+                </p>
+
 [Open Display setting](ms-settings:display?activationSource=SMC-IA-4027860)
 
 
