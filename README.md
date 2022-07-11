@@ -27,3 +27,6 @@ cut and paste to the run command: ms-settings:display?activationSource=SMC-IA-40
 [Enable Remote Destkop](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c)
 
 cut and paste to the run command: ms-settings:remotedesktop?activationSource=SMC-IA-4028379
+
+
+[Launch the Windows setting app via ms-setting command: ](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app)
