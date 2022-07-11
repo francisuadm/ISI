@@ -21,11 +21,11 @@
 [URL:](https://docs.microsoft.com/en-us/)
 
 
- <p>
-                  <a href="ms-settings:display?activationSource=SMC-IA-4027860" target="_blank" role="button" class="ocpExternalLink supLinkButton">Open Display settings</a>
-                </p>
+  <p>
+  <a href="ms-settings:display?activationSource=SMC-IA-4027860" target="_blank" role="button" class="ocpExternalLink supLinkButton">Open Display settings</a>
+  </p>
 
-[Open Display setting](ms-settings:display?activationSource=SMC-IA-4027860)
+[Open Display settings](ms-settings:display?activationSource=SMC-IA-4027860)
 
 
 [Enable Remote Destkop](ms-settings:remotedesktop?activationSource=SMC-IA-4028379)
