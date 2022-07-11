@@ -20,10 +20,10 @@
 ## Microsoft technical documentation
 [URL:](https://docs.microsoft.com/en-us/)
 
-<a href="http://ms-settings:display?activationSource=SMC-IA-4027860" target="_blank" role="button" class="ocpExternalLink supLinkButton">Open Display settings</a>
+[Open Display settings](https://support.microsoft.com/en-us/windows/view-display-settings-in-windows-37f0e05e-98a9-474c-317a-e85422daa8bb)
 
+cut and paste to the run command: ms-settings:display?activationSource=SMC-IA-4027860
 
-[Open Display settings](ms-settings:display?activationSource=SMC-IA-4027860)
+[Enable Remote Destkop](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c)
 
-
-[Enable Remote Destkop](ms-settings:remotedesktop?activationSource=SMC-IA-4028379)
+cut and paste to the run command: ms-settings:remotedesktop?activationSource=SMC-IA-4028379
