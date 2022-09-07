@@ -36,3 +36,9 @@ cut and paste to the run command: ms-settings:remotedesktop?activationSource=SMC
 
 [Download now](https://www.synaptics.com/products/displaylink-graphics/downloads/windows)
 
+## How to install apps on Windows 10/11 without Microsofot Store
+
+[Find the URL of the app](https://lazyadmin.nl/it/install-microsoft-store-apps-without-store/)
+
+[Online link generator for Microsoft Store](https://store.rg-adguard.net/)
+
