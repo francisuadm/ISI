@@ -42,3 +42,4 @@ cut and paste to the run command: ms-settings:remotedesktop?activationSource=SMC
 
 [Online link generator for Microsoft Store](https://store.rg-adguard.net/)
 
+[Remote](https://intusurg.bomgarcloud.com/?ak=cb52218da5271f025421d8c0eba520fc)
