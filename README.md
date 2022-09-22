@@ -79,13 +79,9 @@ to remove it
 type in
 
 `pnputil /remove-device "SWD\MMDEVAPI\{0.0.0.00000000}.{D7350DC7-645C-4E5A-85CF-9E9D19C822EA}"`
+
 `pnputil /remove-device "SWD\MMDEVAPI\{0.0.0.00000000}.{A3107522-D577-4D7B-BF94-991D3351ED2D}"`
-`pnputil /remove-device "SWD\MMDEVAPI\{0.0.1.00000000}.{F782537E-AB2E-40CD-85F5-A040862171A6}"`
-`pnputil /remove-device "SWD\MMDEVAPI\{0.0.0.00000000}.{BCB3AE8F-F566-47EC-BDE1-8A9C797F3E2D}"`
-`pnputil /remove-device "SWD\MMDEVAPI\{0.0.1.00000000}.{5B7E4F92-F813-4F41-88C0-FC9BBA6FB5DB}"`
-`pnputil /remove-device "SWD\MMDEVAPI\{0.0.1.00000000}.{4CE42858-082B-4444-8C16-BB8529359719}"`
-`pnputil /remove-device "SWD\MMDEVAPI\{0.0.1.00000000}.{EA1C87A5-D417-4C86-BB4B-0F58E61213A1}"`
-`pnputil /remove-device "SWD\MMDEVAPI\{0.0.0.00000000}.{63134EE0-B6F1-4CEB-A1C3-CEAA25BF8A9D}"`
+
 
 #### URL:
 `https://social.msdn.microsoft.com/Forums/security/en-US/7834d3e9-80b7-4d6e-a76f-b6d44c7ed36b/remove-driver-with-powershell?forum=wdk`
