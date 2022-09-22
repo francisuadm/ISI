@@ -75,7 +75,11 @@ to save it in txt file
 type in
 $unknown >> 1.txt
 
-to remove it
+or
+
+`Get-PNPDevice -Class AudioEndpoint | Where-Object {$_.Status -like "*Unknown*"} | Select InstanceID >> 1.txt
+
+To remove it
 type in
 
 `pnputil /remove-device "SWD\MMDEVAPI\{0.0.0.00000000}.{D7350DC7-645C-4E5A-85CF-9E9D19C822EA}"`
