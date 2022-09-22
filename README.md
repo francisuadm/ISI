@@ -45,7 +45,12 @@ cut and paste to the run command: ms-settings:remotedesktop?activationSource=SMC
 [Remote](https://intusurg.bomgarcloud.com/?ak=cb52218da5271f025421d8c0eba520fc)
 
 
+### Simple way to get MAC Address of the PC remotely
 
+GETMAC command
+Parameters URL: (https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/getmac?source=recommendations)
+
+`GetMAC /s hostname /fo table /v`
 
 ## Powershell Administrator Command
 
