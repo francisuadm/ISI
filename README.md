@@ -59,6 +59,7 @@ or
 `get-pnpdevice  | Where-Object {$_.Class -like "*AudioEndpoint*"} | ft status, FriendlyName, InstanceID`
 
 `Get-WmiObject Win32_pnpEntity | Where-Object {$_.Status -like "*Poly*" | Select Status, Name, PNPDeviceID`
+
 `Get-WmiObject Win32_pnpEntity | Where-Object {$_.Status -like "*Unknown*" | Select Status, Name, PNPDeviceID`
 
 
