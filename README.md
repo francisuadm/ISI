@@ -52,22 +52,23 @@ cut and paste to the run command: ms-settings:remotedesktop?activationSource=SMC
 
 First type in
 Powershell Admin command
-get-pnpdevice -FriendlyName '*Poly*' | Select Stauts, Class, FriendlyName, InstanceID
+`get-pnpdevice -FriendlyName '*Poly*' | Select Stauts, Class, FriendlyName, InstanceID`
 
 or
 
-get-pnpdevice -Class AudioEndpoint | Where-Object {$_.FriendlyName -like "*Poly*"} | ft status, FriendlyName, InstanceID
+`get-pnpdevice -Class AudioEndpoint | Where-Object {$_.FriendlyName -like "*Poly*"} | ft status, FriendlyName, InstanceID`
 
-get-pnpdevice  | Where-Object {$_.Class -like "*AudioEndpoint*"} | ft status, FriendlyName, InstanceID
+`get-pnpdevice  | Where-Object {$_.Class -like "*AudioEndpoint*"} | ft status, FriendlyName, InstanceID`
 
 
 okay from the list
 to remove it
-pnputil /remove-device 'enter InstanceID HERE'
+`pnputil /remove-device 'enter InstanceID HERE'`
 
 or you can create this via powershell
-`this command will capture all unknown device as AudioEndpoint
-`$unknown = get-pnpdevice -Class AudioEndpoint | Where-Object {$_.Status -eq "Unknown"} | ft status, FriendlyName, InstanceID, Class
+this command will capture all unknown device as AudioEndpoint
+
+`$unknown = get-pnpdevice -Class AudioEndpoint | Where-Object {$_.Status -eq "Unknown"} | ft status, FriendlyName, InstanceID, Class`
 
 to save it in txt file
 type in
