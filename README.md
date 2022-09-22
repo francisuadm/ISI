@@ -66,8 +66,8 @@ to remove it
 pnputil /remove-device 'enter InstanceID HERE'
 
 or you can create this via powershell
-this command will capture all unknown device as AudioEndpoint
-$unknown = get-pnpdevice -Class AudioEndpoint | Where-Object {$_.Status -eq "Unknown"} | ft status, FriendlyName, InstanceID, Class
+`this command will capture all unknown device as AudioEndpoint
+`$unknown = get-pnpdevice -Class AudioEndpoint | Where-Object {$_.Status -eq "Unknown"} | ft status, FriendlyName, InstanceID, Class
 
 to save it in txt file
 type in
