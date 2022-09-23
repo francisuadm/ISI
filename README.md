@@ -122,4 +122,6 @@ and ``com.apple.network.eapolclient.configuration.plist``
 
 ``preferences.plist and com.apple.accounts.exists.plist``
 
-[Check URL for Wi-Fi Problems](https://osxdaily.com/2016/09/22/fix-wi-fi-problems-macos-sierra/)
+#### [Check URL for Wi-Fi Problems](https://osxdaily.com/2016/09/22/fix-wi-fi-problems-macos-sierra/)
+
+#### [Disabling AirDrop from the command line](https://derflounder.wordpress.com/2011/10/07/disabling-airdrop-from-the-command-line/)
