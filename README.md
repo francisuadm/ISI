@@ -117,3 +117,7 @@ preferences.plist
 ```
 
 and ``com.apple.network.eapolclient.configuration.plist``
+
+#### But if you just want to delete location profile just delete 
+
+``preferences.plist and com.apple.accounts.exists.plist``
