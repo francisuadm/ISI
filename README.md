@@ -104,6 +104,8 @@ PS C:\ps> winrs -r:cnd14705hx powershell
 PS C:\installed> curl https://e3.boxcdn.net/box-installers/boxedit/win/currentrelease/BoxToolsInstaller.exe -O BoxToolsInstaller.exe
 PS C:\installed> .\BoxToolsInstaller.exe /exenoui
 PS C:\installed> get-process | where {$_.ProcessName -like "BoxTools*"} | ft *
+or 
+PS C:\installed> get-process -name boxtoolsinstaller
 ```
 
 ### MAC OS info
