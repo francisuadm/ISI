@@ -136,7 +136,7 @@ and ``com.apple.network.eapolclient.configuration.plist``
 
 Change Windows regedit
 
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\UserTile
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\UserTile](https://appuals.com/how-to-switch-login-method-from-pin-to-password/)
 
 Now select your SID double click it, then paste this {D6886603-9D2F-4EB2-B667-1971041FA96B}
 
