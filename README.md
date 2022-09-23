@@ -109,7 +109,7 @@ You'll get a new PowerShell window.
 PS C:\WINDOWS\system32> wmic
 wmic:root\cli>/node:hostname product where "vendor like 'box%'" get name, version, vendor
 /node:hostname product where name="Box Tools" Call uninstall /nointeractive
-
+```
 
 
 #### How to install Box Tools remotely via Powershell
@@ -128,6 +128,14 @@ PS C:\installed> $a[1].MainWindowTitle
 PS C:\installed> Get-WmiObject win32_process | where {$_.ParentProcessId -eq $a.Id}
 PS C:\installed> get-process | where {$_.PriorityClass -and $_.PriorityClass -ne 'Normal'} | select Name,PriorityClass,PriorityBoostEnabled
 ```
+
+
+#### Force Reboot remote PC via PowerShell
+
+```
+wmic:root\cli>/node:cnd14705hx os where primary="true" call reboot /nointeractive
+```
+
 
 ### MAC OS info
 
