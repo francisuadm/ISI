@@ -133,3 +133,19 @@ and ``com.apple.network.eapolclient.configuration.plist``
 #### Windows Regedit command
 
 ##### Command to get your current user SID ID: whoami /user
+
+Change Windows regedit
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\UserTile
+
+Now select your SID double click it, then paste this {D6886603-9D2F-4EB2-B667-1971041FA96B}
+
+gpedit
+
+The group policy setting you need to change can be found in the following folder: `Computer Configuration\Administrative Templates\System\Logon`
+
+The setting you need to enable is: `Turn on convenience PIN sign-in`
+
+Once you enable the setting, run gpupdate.exe from the command-line to refresh your the policy
+
+
