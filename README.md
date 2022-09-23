@@ -108,10 +108,10 @@ To rebuilt networks, delete the following files in `/Library/Preferences/SystemC
 
 Note: you might not find the file called "com.apple.network.identification.plist" which is ok and, this will take at-least 15mins after reboot.
 
-``` com.apple.airport.preferences.plist
+```com.apple.airport.preferences.plist
 com.apple.network.identification.plist
 com.apple.wifi.message-tracer.plist
 NetworkInterfaces.plist
-preferences.plist ```
+preferences.plist```
 
 
