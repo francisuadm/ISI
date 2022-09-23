@@ -130,4 +130,6 @@ and ``com.apple.network.eapolclient.configuration.plist``
 
 
 
+#### Windows Regedit command
+
 ##### Command to get your current user SID ID: whoami /user
