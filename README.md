@@ -94,11 +94,17 @@ type in
 
 `pnputil /remove-device "SWD\MMDEVAPI\{0.0.0.00000000}.{A3107522-D577-4D7B-BF94-991D3351ED2D}"`
 
-
 #### URL:
 `https://social.msdn.microsoft.com/Forums/security/en-US/7834d3e9-80b7-4d6e-a76f-b6d44c7ed36b/remove-driver-with-powershell?forum=wdk`
 
 
+
+```
+PS C:\ps> winrs -r:cnd14705hx powershell
+PS C:\installed> curl https://e3.boxcdn.net/box-installers/boxedit/win/currentrelease/BoxToolsInstaller.exe -O BoxToolsInstaller.exe
+PS C:\installed> .\BoxToolsInstaller.exe /exenoui
+PS C:\installed> get-process | where {$_.ProcessName -like "BoxTools*"} | ft *
+```
 
 ### MAC OS info
 
