@@ -142,7 +142,7 @@ Now select your SID double click it, then paste this {D6886603-9D2F-4EB2-B667-19
 
 gpedit
 
-The group policy setting you need to change can be found in the following folder: `Computer Configuration\Administrative Templates\System\Logon`
+The group policy setting you need to change can be found in the following folder: [`Computer Configuration\Administrative Templates\System\Logon`](https://serverfault.com/questions/830772/how-to-enable-pin-login-for-domain-joined-windows-10-pro-via-group-policy)
 
 The setting you need to enable is: `Turn on convenience PIN sign-in`
 
