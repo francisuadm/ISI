@@ -102,16 +102,20 @@ type in
 
 ### MAC OS info
 
-Network Configuration location `/Library/Preferences/SystemConfiguration'
+Network Configuration location `/Library/Preferences/SystemConfiguration`
 
-To rebuilt networks, delete the following files in `/Library/Preferences/SystemConfiguration/'
+To rebuilt networks, delete the following files in `/Library/Preferences/SystemConfiguration/`
 
 Note: you might not find the file called "com.apple.network.identification.plist" which is ok and, this will take at-least 15mins after reboot.
 
 `com.apple.airport.preferences.plist
+
 com.apple.network.identification.plist
+
 com.apple.wifi.message-tracer.plist
+
 NetworkInterfaces.plist
+
 preferences.plist`
 
 
