@@ -98,11 +98,28 @@ type in
 `https://social.msdn.microsoft.com/Forums/security/en-US/7834d3e9-80b7-4d6e-a76f-b6d44c7ed36b/remove-driver-with-powershell?forum=wdk`
 
 
+#### How to uninstall Box Tools remotely via PowerShell
 
 ```
-PS C:\ps> winrs -r:cnd14705hx powershell
-PS C:\installed> curl https://e3.boxcdn.net/box-installers/boxedit/win/currentrelease/BoxToolsInstaller.exe -O BoxToolsInstaller.exe
-PS C:\installed> .\BoxToolsInstaller.exe /exenoui
+Open PowerShell as Administrator
+PS C:\ps> runas /user:intsurg\a-Account powershell 
+Enter
+It will prompt you to enter you password.
+You'll get a new PowerShell window.
+PS C:\WINDOWS\system32> wmic
+wmic:root\cli>/node:hostname product where "vendor like 'box%'" get name, version, vendor
+/node:hostname product where name="Box Tools" Call uninstall /nointeractiv
+
+
+
+#### How to install Box Tools remotely via Powershell
+
+```
+PS C:\ps> winrs -r:hostname powershell
+PS C:\installed> curl https://e3.boxcdn.net/box-installers/boxedit/win/currentrelease/BoxToolsInstaller-AdminInstall.msi -O BoxToolsInstaller-AdminInstall.msi
+PS C:\installed> .\boxtoolsinstaller-admininstall.msi
+OLD info PS C:\installed> curl https://e3.boxcdn.net/box-installers/boxedit/win/currentrelease/BoxToolsInstaller.exe -O BoxToolsInstaller.exe
+OLD info PS C:\installed> .\BoxToolsInstaller.exe /exenoui
 PS C:\installed> get-process | where {$_.ProcessName -like "BoxTools*"} | ft *
 or 
 PS C:\installed> get-process -name boxtoolsinstaller
