@@ -126,4 +126,4 @@ and ``com.apple.network.eapolclient.configuration.plist``
 
 #### [Disabling AirDrop from the command line](https://derflounder.wordpress.com/2011/10/07/disabling-airdrop-from-the-command-line/)
 
-#### Show logs two minutes ago, ``` log show --last 2m ```
+#### [Show logs two minutes ago,](https://blog.kandji.io/mac-logging-and-the-log-command-a-guide-for-apple-admins) ``` log show --last 2m ```
