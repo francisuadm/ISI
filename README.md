@@ -106,6 +106,10 @@ PS C:\installed> .\BoxToolsInstaller.exe /exenoui
 PS C:\installed> get-process | where {$_.ProcessName -like "BoxTools*"} | ft *
 or 
 PS C:\installed> get-process -name boxtoolsinstaller
+PS C:\installed> $a = get-process -name boxtoolsinstaller
+PS C:\installed> $a[1].MainWindowTitle
+PS C:\installed> Get-WmiObject win32_process | where {$_.ParentProcessId -eq $a.Id}
+PS C:\installed> get-process | where {$_.PriorityClass -and $_.PriorityClass -ne 'Normal'} | select Name,PriorityClass,PriorityBoostEnabled
 ```
 
 ### MAC OS info
