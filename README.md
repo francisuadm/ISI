@@ -108,7 +108,7 @@ It will prompt you to enter you password.
 You'll get a new PowerShell window.
 PS C:\WINDOWS\system32> wmic
 wmic:root\cli>/node:hostname product where "vendor like 'box%'" get name, version, vendor
-/node:hostname product where name="Box Tools" Call uninstall /nointeractiv
+/node:hostname product where name="Box Tools" Call uninstall /nointeractive
 
 
 
