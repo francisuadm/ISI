@@ -121,3 +121,5 @@ and ``com.apple.network.eapolclient.configuration.plist``
 #### But if you just want to delete location profile just delete 
 
 ``preferences.plist and com.apple.accounts.exists.plist``
+
+[Check URL for Wi-Fi Problems](https://osxdaily.com/2016/09/22/fix-wi-fi-problems-macos-sierra/)
