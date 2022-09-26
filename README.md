@@ -137,7 +137,7 @@ wmic:root\cli>/node:cnd14705hx os where primary="true" call reboot /nointeractiv
 ```
 
 
-### MAC OS info
+## MAC OS info
 
 Network Configuration location `/Library/Preferences/SystemConfiguration`
 
@@ -165,7 +165,7 @@ and ``com.apple.network.eapolclient.configuration.plist``
 
 #### [Show logs two minutes ago,](https://blog.kandji.io/mac-logging-and-the-log-command-a-guide-for-apple-admins) ``` log show --last 2m ```
 
-
+##
 
 ## Windows Regedit command - Changing your password to PIN:
 
