@@ -113,7 +113,7 @@ wmic:root\cli>/node:hostname product where "vendor like 'box%'" get name, versio
 
 or
 
-## [Run a command as an Administrator using alternate credentials](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2)
+### [Run a command as an Administrator using alternate credentials](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2)
 
 ```
 $cred = Get-Credential
