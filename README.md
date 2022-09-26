@@ -98,7 +98,7 @@ type in
 `https://social.msdn.microsoft.com/Forums/security/en-US/7834d3e9-80b7-4d6e-a76f-b6d44c7ed36b/remove-driver-with-powershell?forum=wdk`
 
 
-#### [How to uninstall Box Tools remotely via PowerShell] (https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2)
+#### How to uninstall Box Tools remotely via PowerShell
 
 ```
 Open PowerShell as Administrator
@@ -113,7 +113,7 @@ wmic:root\cli>/node:hostname product where "vendor like 'box%'" get name, versio
 
 or
 
-## Run a command as an Administrator using alternate credentials
+## [Run a command as an Administrator using alternate credentials](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.2)
 
 ```
 $cred = Get-Credential
