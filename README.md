@@ -167,7 +167,7 @@ and ``com.apple.network.eapolclient.configuration.plist``
 
 
 
-#### Windows Regedit command - Changing your password to PIN:
+## Windows Regedit command - Changing your password to PIN:
 
 ##### Command to get your current user SID ID: whoami /user
 
@@ -185,4 +185,4 @@ The setting you need to enable is: `Turn on convenience PIN sign-in`
 
 Once you enable the setting, run gpupdate.exe from the command-line to refresh your the policy
 
-
+##
