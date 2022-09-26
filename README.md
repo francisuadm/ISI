@@ -1,4 +1,4 @@
-## ISI
+## ISI (intsurg)
 
 
 
@@ -102,7 +102,7 @@ type in
 
 ```
 Open PowerShell as Administrator
-PS C:\ps> runas /user:intsurg\a-Account powershell 
+PS C:\ps> runas /user:domain\a-Account powershell 
 Enter
 It will prompt you to enter you password.
 You'll get a new PowerShell window.
