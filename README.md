@@ -167,7 +167,7 @@ and ``com.apple.network.eapolclient.configuration.plist``
 
 
 
-#### Windows Regedit command
+#### Windows Regedit command - Changing your password to PIN:
 
 ##### Command to get your current user SID ID: whoami /user
 
