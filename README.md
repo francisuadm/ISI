@@ -157,6 +157,19 @@ Once you enable the setting, run gpupdate.exe from the command-line to refresh y
 
 ##
 
+## Remotely Get the local user current printer list
+
+Use Powershell command but only work with a-account
+
+```
+Get-CimInstance -ClassName CIM_Printer -ComputerName hostname
+
+```
+
+
+##
+
+
 ## MAC OS info
 
 Network Configuration location `/Library/Preferences/SystemConfiguration`
