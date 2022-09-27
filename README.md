@@ -193,7 +193,7 @@ to find out open up CMD as admin, then type in
 ```
 NOTE: If it continues to not allow you to open this file on your desktop. Then you'll have to uninstall all of the Box product.
 After you uninstall all of the Box product, then reboot. Once you are log back in, first install Box Tools, second app is Box 
-and the last is Box for Office, then reboot.
+and the last is Box for Office, then reboot. All of this needs to be done locally, can't do it remotely you tried it didn't work.
 ```
 
 ##
