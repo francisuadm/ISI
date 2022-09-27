@@ -183,16 +183,12 @@ When you see this message below "Install Box Tools" to open this file on your de
 ```
 After you download the installing file, go ahead and uninstall the existing Box Tools first before you re-install it.
 Make sure you are admin into the PC or else it will not work. Also make sure everything that related with Box apps is closed.
-
 to find out open up CMD as admin, then type in
 ```
 ``tasklist /M box*``
-
-
-
-
-
-
+``to terminate those apps, type in
+taskkill /f /IM box* /t
+``
 
 ##
 
