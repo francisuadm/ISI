@@ -186,9 +186,14 @@ Make sure you are admin into the PC or else it will not work. Also make sure eve
 to find out open up CMD as admin, then type in
 ```
 ``tasklist /M box*``
-``to terminate those apps, type in
-taskkill /f /IM box* /t
-``
+
+```to terminate those apps, type in```
+``taskkill /f /IM box* /t``
+
+```
+NOTE: If it continues to not allow you to open this file on your desktop. Then you'll have to uninstall all of the Box product.
+After you uninstall all of the Box product, then reboot. Once you are log back in, first install Box Tools, second app is Box and the last is Box for Office, then reboot.
+```
 
 ##
 
