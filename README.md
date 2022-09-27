@@ -175,6 +175,12 @@ Get-CimInstance -ClassName CIM_Printer -ComputerName hostname
 
 ```
 
+## BOX info
+
+When you see this message below "Install Box Tools" to open this file on your desktop.
+
+
+
 
 ##
 
