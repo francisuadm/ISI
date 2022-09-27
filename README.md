@@ -177,9 +177,20 @@ Get-CimInstance -ClassName CIM_Printer -ComputerName hostname
 
 ## BOX info
 
-When you see this message below "Install Box Tools" to open this file on your desktop.
-
+When you see this message below "Install Box Tools" to open this file on your desktop. You need to download it, by clicking the URL.
 ![](https://github.com/francisuadm/ISI/blob/a4d39151b927a64d47bf9cc48deaae3a866cc310/Box/BoxTools.jpg)
+
+```
+After you download the installing file, go ahead and uninstall the existing Box Tools first before you re-install it.
+Make sure you are admin into the PC or else it will not work. Also make sure everything that related with Box apps is closed.
+
+to find out open up CMD as admin, then type in
+```
+``tasklist /M box*``
+
+
+
+
 
 
 
