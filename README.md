@@ -53,6 +53,19 @@ GETMAC command
 
 `GetMAC /s hostname /fo table /v`
 
+
+# RunAs Powershell Administrator
+
+Use the commands below: you can save this as RunAs.PS1
+
+```
+Clear-Host
+#Start -Verb RunAs -FilePath Powershell_ISE
+Start-Process powershell -Credential domain\a-account -ArgumentList '-noprofile -command &{Start-Process "powershell_ise" -verb runas}'
+```
+
+
+
 ## Powershell Administrator Command
 
 
