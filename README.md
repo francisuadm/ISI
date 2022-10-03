@@ -64,6 +64,10 @@ Clear-Host
 Start-Process powershell -Credential domain\a-account -ArgumentList '-noprofile -command &{Start-Process "powershell_ise" -verb runas}'
 ```
 
+If you want to make sure you are running as a-account simply type in 
+
+``` whoami```
+
 
 
 ## Powershell Administrator Command
