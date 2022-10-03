@@ -68,7 +68,7 @@ If you want to make sure you are running as a-account simply type in
 
 ``` whoami```
 
-### How to Use RunAs Without Password Prompt?
+### [How to Use RunAs Without Password Prompt?](http://woshub.com/run-program-as-different-user-windows/)
 
 You can save the user credentials (with password) that you enter. The ```/savecred``` parameter is used for this.
 
