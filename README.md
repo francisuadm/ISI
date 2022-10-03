@@ -68,6 +68,19 @@ If you want to make sure you are running as a-account simply type in
 
 ``` whoami```
 
+# How to Use RunAs Without Password Prompt?
+
+You can save the user credentials (with password) that you enter. The ```/savecred``` parameter is used for this.
+
+```runas /user:admin /savecred “C:\Windows\cmd.exe”```
+
+After specifying the password, it will be saved to the Windows Credential Manager.
+
+The next time you run the runas command under the same user with the ```/savecred``` key, Windows will automatically use the saved password from the Credential Manager without prompting to enter it again.
+
+To display a list of saved credentials in Credential Manager, use the following command:
+
+```rundll32.exe keymgr.dll, KRShowKeyMgr```
 
 
 ## Powershell Administrator Command
