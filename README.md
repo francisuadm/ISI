@@ -68,7 +68,7 @@ If you want to make sure you are running as a-account simply type in
 
 ``` whoami```
 
-# How to Use RunAs Without Password Prompt?
+### How to Use RunAs Without Password Prompt?
 
 You can save the user credentials (with password) that you enter. The ```/savecred``` parameter is used for this.
 
@@ -83,7 +83,7 @@ To display a list of saved credentials in Credential Manager, use the following 
 ```rundll32.exe keymgr.dll, KRShowKeyMgr```
 
 
-## Powershell Administrator Command
+### Powershell Administrator Command
 
 
 `get-pnpdevice -FriendlyName '*Poly*' | Select Stauts, Class, FriendlyName, InstanceID`
