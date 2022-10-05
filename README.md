@@ -177,6 +177,11 @@ If you’re running PowerShell 6+ on Windows, you now have a _**ComputerName**_ 
 
 ```Get-Process -ComputerName 'hostname' | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize```
 
+****You can still search it by follow this command below:****
+
+```Get-Process Outlook* ```  or  ```Get-Process | Where-Object {$_.ProcessName -like "Outlook*"}```
+
+
 #####
 **Below is another great example. For each instance of the chrome process it finds, it uses that process’s ID ($_.id) and passes it to Get-NetTCPConnection. PowerShell then uses Get-NetTCPConnection to find information about each network connection the brave process has open.**
 
