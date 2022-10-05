@@ -177,7 +177,7 @@ PS C:\installed> get-process | where {$_.PriorityClass -and $_.PriorityClass -ne
 #####
 **Below is another great example. For each instance of the chrome process it finds, it uses that process’s ID ($_.id) and passes it to Get-NetTCPConnection. PowerShell then uses Get-NetTCPConnection to find information about each network connection the brave process has open.**
 
-**Run the following code in your PowerShell session when the Chrome browser is running.**
+**[Run the following code in your PowerShell session when the Chrome browser is running.](https://adamtheautomator.com/powershell-get-process/)**
 #####
 
 ```Get-Process -Name chrome | ForEach-Object { Get-NetTCPConnection -OwningProcess $_.Id -ErrorAction SilentlyContinue } ```
