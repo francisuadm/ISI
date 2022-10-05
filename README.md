@@ -169,15 +169,15 @@ PS C:\installed> get-process | where {$_.PriorityClass -and $_.PriorityClass -ne
 ```
 
 
-### [Get all processes that have a main window title and display them in a table ](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-7.2)
+### *[Get all processes that have a main window title and display them in a table ](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-7.2)*
 
 ```Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize```
 
 
 #####
-Below is another great example. For each instance of the chrome process it finds, it uses that process’s ID ($_.id) and passes it to Get-NetTCPConnection. PowerShell then uses Get-NetTCPConnection to find information about each network connection the brave process has open.
+**Below is another great example. For each instance of the chrome process it finds, it uses that process’s ID ($_.id) and passes it to Get-NetTCPConnection. PowerShell then uses Get-NetTCPConnection to find information about each network connection the brave process has open.**
 
-Run the following code in your PowerShell session when the Chrome browser is running.
+**Run the following code in your PowerShell session when the Chrome browser is running.**
 #####
 
 ```Get-Process -Name chrome | ForEach-Object { Get-NetTCPConnection -OwningProcess $_.Id -ErrorAction SilentlyContinue } ```
@@ -185,9 +185,7 @@ Run the following code in your PowerShell session when the Chrome browser is run
 
 #### Force Reboot remote PC via PowerShell
 
-```
-wmic:root\cli>/node:cnd14705hx os where primary="true" call reboot /nointeractive
-```
+```wmic:root\cli>/node:cnd14705hx os where primary="true" call reboot /nointeractive```
 ##
 
 ## Windows Regedit command - Changing your password to PIN:
