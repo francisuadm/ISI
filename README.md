@@ -173,6 +173,9 @@ PS C:\installed> get-process | where {$_.PriorityClass -and $_.PriorityClass -ne
 
 ```Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize```
 
+If you’re running PowerShell 6+ on Windows, you now have a _**ComputerName**_ parameter you can use to query processes on remote computers.
+
+```Get-Process -ComputerName 'hostname' | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize```
 
 #####
 **Below is another great example. For each instance of the chrome process it finds, it uses that process’s ID ($_.id) and passes it to Get-NetTCPConnection. PowerShell then uses Get-NetTCPConnection to find information about each network connection the brave process has open.**
