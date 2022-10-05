@@ -181,6 +181,10 @@ If you’re running PowerShell 6+ on Windows, you now have a _**ComputerName**_ 
 
 ```Get-Process Outlook* ```  or  ```Get-Process | Where-Object {$_.ProcessName -like "Outlook*"}```
 
+****To terminate the program Outlook use the command below:****
+
+```Get-Process | Where-Object {$_.ProcessName -eq "Outlook"} | Stop-Process -Force```
+
 
 #####
 **Below is another great example. For each instance of the chrome process it finds, it uses that process’s ID ($_.id) and passes it to Get-NetTCPConnection. PowerShell then uses Get-NetTCPConnection to find information about each network connection the brave process has open.**
