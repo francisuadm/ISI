@@ -174,6 +174,15 @@ PS C:\installed> get-process | where {$_.PriorityClass -and $_.PriorityClass -ne
 ```Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize```
 
 
+#####
+Below is another great example. For each instance of the chrome process it finds, it uses that process’s ID ($_.id) and passes it to Get-NetTCPConnection. PowerShell then uses Get-NetTCPConnection to find information about each network connection the brave process has open.
+
+Run the following code in your PowerShell session when the Chrome browser is running.
+#####
+
+```Get-Process -Name chrome | ForEach-Object { Get-NetTCPConnection -OwningProcess $_.Id -ErrorAction SilentlyContinue } ```
+
+
 #### Force Reboot remote PC via PowerShell
 
 ```
