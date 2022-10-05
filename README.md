@@ -85,11 +85,6 @@ To display a list of saved credentials in Credential Manager, use the following 
 
 ### Powershell Administrator Command
 
-##### [Get all processes that have a main window title and display them in a table ](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-7.2)
-
-```Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize```
-
-
 
 `get-pnpdevice -FriendlyName '*Poly*' | Select Stauts, Class, FriendlyName, InstanceID`
 
@@ -172,6 +167,11 @@ PS C:\installed> $a[1].MainWindowTitle
 PS C:\installed> Get-WmiObject win32_process | where {$_.ParentProcessId -eq $a.Id}
 PS C:\installed> get-process | where {$_.PriorityClass -and $_.PriorityClass -ne 'Normal'} | select Name,PriorityClass,PriorityBoostEnabled
 ```
+
+
+##### [Get all processes that have a main window title and display them in a table ](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-7.2)
+
+```Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize```
 
 
 #### Force Reboot remote PC via PowerShell
