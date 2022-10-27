@@ -228,7 +228,11 @@ Use Powershell command but only work with a-account
 Get-CimInstance -ClassName CIM_Printer -ComputerName hostname
 
 ```
+## Remotely get the local current network adapter info
 
+```
+Get-NetAdapter -CimSession cnd14705hx -Physical | Out-GridView 
+```
 ## BOX info
 
 When you see this message below "Install Box Tools" to open this file on your desktop. You need to download it, by clicking the URL.
