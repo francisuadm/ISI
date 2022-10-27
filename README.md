@@ -66,6 +66,21 @@ Start-Process powershell -Credential domain\a-account -ArgumentList '-noprofile 
 
 If you want to make sure you are running as a-account simply type in 
 
+
+#### [running with full privileges, in the script file.](https://superuser.com/questions/108207/how-to-run-a-powershell-script-as-administrator)
+
+```
+    $CurrentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent())
+    $TestAdmin = $CurrentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
+
+If ($TestAdmin -eq $False) {
+    Start-Process powershell.exe -Verb RunAs -ArgumentList ('-noprofile -noexit -file "{0}" -elevated' -f ($myinvocation.MyCommand.Definition))
+exit $LASTEXITCODE
+}
+```
+
+
+
 ``` whoami```
 
 ### [How to Use RunAs Without Password Prompt?](http://woshub.com/run-program-as-different-user-windows/)
