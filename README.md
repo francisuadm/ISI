@@ -220,7 +220,7 @@ Once you enable the setting, run gpupdate.exe from the command-line to refresh y
 
 ##
 
-## Remotely Get the local user current printer list
+## Remotely get the local user current printer list
 
 Use Powershell command but only work with a-account
 
@@ -231,7 +231,7 @@ Get-CimInstance -ClassName CIM_Printer -ComputerName hostname
 ## Remotely get the local current network adapter info
 
 ```
-Get-NetAdapter -CimSession cnd14705hx -Physical | Out-GridView 
+Get-NetAdapter -CimSession [remote computername here.] -Physical | Out-GridView 
 ```
 ## BOX info
 
