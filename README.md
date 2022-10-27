@@ -64,7 +64,7 @@ Clear-Host
 Start-Process powershell -Credential domain\a-account -ArgumentList '-noprofile -command &{Start-Process "powershell_ise" -verb runas}'
 ```
 
-If you want to make sure you are running as a-account simply type in 
+If you want to make sure you are running as a-account simply type in ``` whoami```
 
 
 #### [running with full privileges, in the script file.](https://superuser.com/questions/108207/how-to-run-a-powershell-script-as-administrator)
@@ -78,10 +78,6 @@ If ($TestAdmin -eq $False) {
 exit $LASTEXITCODE
 }
 ```
-
-
-
-``` whoami```
 
 ### [How to Use RunAs Without Password Prompt?](http://woshub.com/run-program-as-different-user-windows/)
 
