@@ -244,6 +244,14 @@ Get-CimInstance -ClassName CIM_Printer -ComputerName hostname
 ```
 Get-NetAdapter -CimSession [remote computername here.] -Physical | Out-GridView 
 ```
+
+## Display currently network adapter active
+
+```
+get-netadapter | ? ConnectorPresent
+```
+
+
 ## BOX info
 
 When you see this message below "Install Box Tools" to open this file on your desktop. You need to download it, by clicking the URL.
