@@ -249,6 +249,10 @@ Get-NetAdapter -CimSession [remote computername here.] -Physical | Out-GridView
 
 ```
 get-netadapter | ? ConnectorPresent
+
+or
+
+Get-NetAdapter -CimSession [remotePC hostname HERE] | Where-Object { $_.HardwareInterface -eq $True -and $_.MediaType -eq "802.3" } | ? Virtual -EQ $false
 ```
 
 ```
