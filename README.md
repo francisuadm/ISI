@@ -245,11 +245,16 @@ Get-CimInstance -ClassName CIM_Printer -ComputerName hostname
 Get-NetAdapter -CimSession [remote computername here.] -Physical | Out-GridView 
 ```
 
-## Display currently network adapter active
+## Display currently network adapter active and IP Address
 
 ```
 get-netadapter | ? ConnectorPresent
 ```
+
+```
+Get-NetIPAddress -AddressFamily IPv4 | where-object IPAddress -notmatch "^(169)|(127)" | Sort-Object IPAddress | select IPaddress,Interface*
+```
+
 
 
 ## BOX info
